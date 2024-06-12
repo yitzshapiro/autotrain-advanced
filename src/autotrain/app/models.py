@@ -68,7 +68,7 @@ def _fetch_llm_models():
         list_models(
             task="text-generation",
             library="transformers",
-            sort="likes7d",
+            sort="likes",
             direction=-1,
             limit=30,
             full=False,
